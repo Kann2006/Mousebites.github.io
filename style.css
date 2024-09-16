@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Maskdown';
+    src: url('/Maskdown.ttf') format('truetype');
+    src: url('/Maskdown.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+
+
+    background-color: Black;
+
+  }
+  h1 
+  {
+    text-align: center;
+    font-size: 100;
+    font-family: 'Maskdown';
+    color: #7c4f4f;
+  }
+  
+  p {
+    text-align: center;
+    color: #e9dfdf;
+  }
+
+  
