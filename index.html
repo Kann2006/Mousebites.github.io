@@ -1,42 +1,74 @@
+ 
+   <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
 
 <body>
     <h1>
+      KannwriteS
+    </h1>
+    <p>
+      Media gallery
+      <br> ______________________________________________
+    </p>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kann</title>
+        <style>
+            /* Container for the media gallery */
+            .gallery {
+                display: flex;
+                flex-wrap: wrap; /* Allows items to wrap to the next row */
+                justify-content: space-between;
+                margin: 0 auto; /* Center the gallery */
+                padding: 0 250px; /* Add margins on the sides of the gallery */
+                box-sizing: border-box;
+            }
+    
+            /* Styling each image in the gallery */
+            .gallery img {
+                width: 28%;  /* Adjust the width to make images smaller */
+                margin-bottom: 20px; /* Space between rows */
+                box-sizing: border-box;
+            }
+    
+            /* Optional: Adjust for smaller screens */
+            @media (max-width: 800px) {
+                .gallery img {
+                    width: 45%; /* Adjust image size for smaller screens */
+                }
+            }
+    
+            @media (max-width: 500px) {
+                .gallery img {
+                    width: 100%; /* Stack images in one column on very small screens */
+                }
+            }
+        </style>
+    </head>
+    <body>
+    
+    
       
-      Kann Fucks</h1>
-    <p>Yo welcome to Kann fucks <br>
-    this is a site where i will post interesting media and tidbits about what im up too <br>
-    i will forget about this innevitably but feel free to check in every week or so to<br>
-    see whats going  on! </p>
- 
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+        <!-- Gallery container -->
+        <div class="gallery">
+            <img src="chud.png" alt="Image 1">
+            <img src="chud.png" alt="Image 2">
+            <img src="chud.png" alt="Image 3">
+            <img src="chud.png" alt="Image 4">
+            <img src="chud.png" alt="Image 5">
+            <img src="chud.png" alt="Image 6">
+            <!-- Add more images as needed -->
+        </div>
+    
+    </body>
+    </html>
