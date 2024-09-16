@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Maskdown';
-    src: url('/Maskdown.ttf') format('truetype');
-    src: url('/Maskdown.otf') format('opentype');
+    src: url('fonts/Maskdown.ttf') format('truetype');
+    src: url('fonts/Maskdown.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
